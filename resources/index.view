@@ -1,0 +1,8 @@
+
+<svg>
+  <image id="background" pointer-events="visible"></image>
+  <text id="myLabel"></text>
+  <text id="date"></text>
+
+
+</svg>

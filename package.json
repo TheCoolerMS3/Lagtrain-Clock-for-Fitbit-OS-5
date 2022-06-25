@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "369d1d82-bca7-4a96-a5d8-69db535eb483",
+    "appType": "clockface",
+    "appDisplayName": "Lagtrain Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Lagtrain Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

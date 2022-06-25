@@ -1,0 +1,21 @@
+#myLabel {
+  font-size: 65;
+  font-family: System-Bold;
+  text-length: 30;
+  x: 5%;
+  y: 30%;
+  fill: black;
+}
+
+#date {
+  font-size: 35;
+  font-family: System-Bold;
+  text-length: 30;
+  x: 5%;
+  y: 40%;
+  fill: black;
+}
+
+#background {
+  href: lagtrainframes/frame4processed.jpg
+}
