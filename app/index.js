@@ -2,7 +2,6 @@ import clock from "clock";
 import * as document from "document";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
-import { today, goals } from "user-activity";
 let days = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
 let background = document.getElementById("background");
 
@@ -30,6 +29,10 @@ clock.ontick = (evt) => {
   let thedate = util.zeroPad(today.getDate());
   let theday = days[today.getDay()];
   date.text = `${theday} ${thedate}`;
+  // easter egg kagerou daze
+  if (thedate = "15") {
+   if (today.getMonth = "8"){
+    background.href = "aug15.png"}}
 }
 
 // plays the animation, runs when the background is clicked... EXTREME CAUTION!!!! CODE PRODUCED BY SOMEONE WHO HAS ZERO CLUE WHAT THEYRE DOING
